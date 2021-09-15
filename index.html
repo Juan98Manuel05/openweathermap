@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="wrapper-current-weather">
+            <div id="current-weather-icon" class="wrapper-current-weather-icon"></div>
+            <div class="current-weather-temp">
+                <p id="temp-bogota" class="current-weather-info"> 0 <sup>°C</sup></p>
+            </div>
+        </div>
+
+        <div class="wrapper-img-principal">
+            <div class="wrapper-img-city">
+                <div class="wrapper-info-city">
+                    <div class="wrapper-description-city">
+                        <div class="name-city">
+                            <h2 id="city-bogota"> City </h2>
+                        </div>
+                        <!-- <div class="map-city">
+                            mapa
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-section-add">
+            <div class="wrapper-forecast-days">
+                <div class="wrapper-title">
+                    <p class="p-30"> <b>3 Days</b> Forecast </p>
+                </div>
+                <div id="next-days" class="next-days"></div>
+            </div>
+
+            <div class="wrapper-forecast-days">
+                <div class="wrapper-title">
+                    <p class="p-30"> <b>Place to</b> visit </p>
+                </div>
+                <div>
+                    <div class="wrapper-img-city-france">
+                        <div class="mark-place-france">
+                            EE,UU <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper-forecast-days">
+                <div class="wrapper-title">
+                    <p class="color-gray"> + Top Reviews </p>
+                </div>
+                <div class="wrapper-img-city-other">
+                    <div class="mark-place-france">
+                        Dubai <br>                        
+                    </div>
+                </div>
+                <div class="wrapper-img-city-other-2">
+                    <div class="mark-place-france">
+                        Canada <br>                        
+                    </div>
+                </div>
+            </div>
+
+            <div id="target-france" class="wrapper-forecast-days">
+                <div class="wrapper-france-days">
+                    <div class="wrapper-img-city-other-3">
+                        <div class="wrapper-info-paris">
+                            <div id="icon-clouthy-paris" class="wrapper-icon-france d-inline"></div>
+                            <div class="d-inline  pl-3">
+                                <h3 id="temp-paris" class="font-size-5 pa-12"> Grados </h3>
+                            </div>
+                            <div class="d-inline pl-3">
+                                <h2 id="city-paris"> City </h2>
+                                <p> Francia </p>
+                            </div>
+                        </div>
+                        <div class="info-add-card">
+                            <div class="desc-date d-inline">
+                                <p class="color-gray"> humidity: 34 </p>
+                            </div>
+                            <div class="desc-date d-inline">
+                                <p class="color-gray"> northwest </p>
+                                
+                            </div>
+                            <div class="desc-date d-inline">
+                                <p class="color-gray"> northwest </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper-img-city-other-3">
+                        <div class="wrapper-info-paris">
+                            <div class="wrapper-icon-france d-inline">
+                                <img class="current-icon-paris" src="http://openweathermap.org/img/wn/04d@2x.png"/>
+                            </div>
+                            <div class="d-inline  pl-3">
+                                <h3 class="font-size-5 pa-12"> 18 <sup>°c</sup> </h3>
+                            </div>
+                            <div class="d-inline pl-3">
+                                <h2> City </h2>
+                                <p> Francia </p>
+                            </div>
+                        </div>
+                        <div class="info-add-card">
+                            <div class="desc-date d-inline">
+                                <p class="color-gray"> humidity: 34 </p>
+                            </div>
+                            <div class="desc-date d-inline">
+                                <p class="color-gray"> northwest </p>
+                                
+                            </div>
+                            <div class="desc-date d-inline">
+                                <p class="color-gray"> northwest </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="wrapper-img-city-other-3">                        
+                        <div class="info-add-card">
+                            <div class="desc-date d-inline">
+                                <button class="btn-add-locations"> add locations </button>
+                            </div>                           
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- <h1> Proximos 3 dias </h1>
+
+        <br>   -->
+          
+        <!-- <h1> Ciudad secundaria </h1> -->
+        <!-- <h2 id="city-paris"> City </h2> -->
+
+
+        <script src="js/apiColombia.js"></script>
+        <script src="js/apiLast3daysBogota.js"></script>
+        <script src="js/apiFrench.js"></script>
+
+</body>
+</html>

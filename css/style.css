@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.p-30{
+    font-size: 30px;
+}
+.font-size-5{
+    font-size: 35px;
+}
+.pa-12{
+    padding: 12px;
+}
+.pl-3{
+    padding-left: 30px;
+}
+
+.color-gray{
+    color: #888;
+}
+
+
+.wrapper-current-weather{
+    position: absolute;
+    top: 18%;
+    background-color: #7d68e9;
+    border-radius: 0 35px 35px 0;
+    box-shadow: 6px 22px 53px 3px #00000061;
+}
+
+.wrapper-current-weather-icon{
+    padding: 21px;
+}
+
+.current-icon-bogota{
+    width: 65px;
+}
+
+.wrapper-current-weather-icon{
+    background-color: #31338a;
+    border-radius: 0 35px 35px 25px;
+}
+
+.current-weather-temp{
+    padding: 21px;
+    padding-top: 35px;
+    background-color: #7d68e9;
+    color: white;
+    border-radius: 25px;
+}
+
+.current-weather-temp p{
+    font-size: 35px;
+}
+
+
+/* banner */
+.wrapper-img-principal{
+    height: 48vh;
+    display: flex;
+    padding: 65px;
+}
+
+.wrapper-img-city{
+    background-image: url('../images/bogota.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    border-radius: 75px;
+    display: flex;
+}
+
+.wrapper-info-city{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper-description-city{
+    padding: 100px;
+}
+
+.name-city h2{
+    font-size: 45px;
+}
+
+/* section adicional */
+
+.wrapper-section-add{
+    padding: 0 83px;
+}
+
+.wrapper-forecast-days{
+    padding: 0px 30px;
+}
+
+
+.wrapper-day{
+    display: flex;
+    border: 1px solid #80808026;
+    margin: 16px 0;
+    border-radius: 36px;
+    box-shadow: 0px 8px 46px -35px black;
+}
+
+.wrapper-title{
+    margin-bottom: 54pt;
+}
+
+.wrapper-icon-next-day{
+    width: 25%;
+}
+
+.wrapper-info-next-day{
+    width: 28%;
+    padding: 25px;
+}
+
+.wrapper-section-add{
+    display: flex;
+}
+
+.temp-next-day{
+    padding: 38px;
+    position: relative;
+    background-color: #7d68e7;
+    border-radius: 36px;
+    color: white;
+    font-size: 16px;
+}
+
+.wrapper-img-city-france{
+    background-image: url('../images/eeuu.jpg');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 335px;
+    background-size: 100% 100%;
+    border-radius: 45px;
+    box-shadow: 1px 49px 90px -29px #0000008a;
+}
+
+.mark-place-france{
+    padding: 33px;
+    font-size: 28px;
+    color: white;
+}
+
+.wrapper-img-city-other{
+    background-image: url('../images/dubai.jpg');
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 130px;
+    background-size: 100%;
+    border-radius: 45px;
+    box-shadow: 1px 49px 90px -29px #0000008a;
+    margin-bottom: 35px;
+}
+
+.wrapper-img-city-other-2{
+    background-image: url('../images/canada.jpg');
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 170px;
+    background-size: 100%;
+    border-radius: 45px;
+    box-shadow: 1px 49px 90px -29px #0000008a;
+    margin-bottom: 35px;
+}
+
+.wrapper-img-city-other-3{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 45px;
+    box-shadow: 1px 49px 90px -29px #00000029;
+    margin-bottom: 35px;
+}
+
+#target-france{
+    position: absolute;
+    right: 75px;
+    top: 430px;
+}
+
+.current-icon-paris{
+    width: 65px;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
+.wrapper-icon-france{
+    padding: 15px;
+    background-color: #dee8f1;
+    border-radius: 25px;
+}
+
+.info-add-card{
+    padding: 15px;
+    text-align: center;
+}
+
+.desc-date{
+    padding: 5px 21px;
+}
+
+.wrapper-info-paris{
+    display: flex;
+    align-items: center;
+}
+
+.btn-add-locations{
+    padding: 11px;
+    background-color: aliceblue;
+    border: none;
+    border-style: dotted;
+    border-radius: 17px;
+    border-color: #efeefe;
+}
+
